@@ -12,6 +12,9 @@ body {
 
 button {
   font-size: 7px;
+  position: absolute;
+  right: 0;
+  top: 2.5px;
 }
 
 #main-content {
@@ -34,4 +37,24 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+li {
+  position: relative;
+}
+
+#tasks {
+  padding-left: 15px;
+}
+
+.low {
+  background-color: green;
+}
+
+.medium {
+  background-color: yellow;
+}
+
+.high {
+  background-color: red;
 }
